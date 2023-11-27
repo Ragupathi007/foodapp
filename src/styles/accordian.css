@@ -1,0 +1,53 @@
+/* Font style imported */
+
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@200;300;400&display=swap");
+
+.Acc_title_box {
+  font-style: normal;
+  font-family: "poppins";
+}
+
+.parent {
+  overflow-y: auto;
+}
+.acc_food_content_area {
+  width: 100%;
+  position: relative;
+}
+.acc_food_text {
+  position: absolute;
+  top: 70px;
+}
+.acc_food_text h1 {
+  font-size: larger;
+  font-family: "poppins";
+}
+
+.acc_food_text p {
+  font-family: "poppins";
+  padding-bottom: 20px;
+}
+.acc_food_image_area {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.food_img {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+}
+.acc_food_image_area Button {
+  width: 100px;
+  position: absolute;
+  right: 100px;
+  top: 140px;
+  background-color: rgb(255, 255, 255);
+  color: #ff5100;
+}

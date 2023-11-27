@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@200;300;400&family=Roboto:wght@100;400&display=swap");
+.card_main {
+  font-family: "Roboto";
+  text-align: start;
+}
+.main_grid {
+  height: auto;
+}
+.total_amt_grid {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.total_amt_grid h2 {
+  color: #ff5100;
+}
+.order_placing_button {
+  background-color: #ff5100;
+  color: white;
+  letter-spacing: 2px;
+}
